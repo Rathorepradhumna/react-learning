@@ -13,11 +13,13 @@ import './App.css';
 //import CounterThreeReducer from './Components/hooks/CounterThreeReducer'
 //import DataFetchingReducer from './Components/hooks/DataFetchingReducer'
 //import CounterMemo from './Components/hooks/CounterMemo'
-import FocusInput from './Components/hooks/FocusInput'
+//import FocusInput from './Components/hooks/FocusInput'
+import Table from './Components/evaluation/Table'
 function App() {
   return (
     <div className="App">
-     <FocusInput/>
+
+     <Table/> 
     </div>
   );
 }
